@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
-import "../Sidebar/style.css"
+import "../Sidebar/Style.css"
 import { Collapse } from 'react-collapse';
 import { FaAngleDown } from "react-icons/fa";
 import { FaAngleUp } from "react-icons/fa";
