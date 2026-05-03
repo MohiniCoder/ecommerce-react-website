@@ -24,7 +24,7 @@ import { Autoplay, Navigation } from 'swiper/modules';
        <SwiperSlide>
   <div className='item rounded-[20px] overflow-hidden h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px]'>
     <img 
-      src="https://i.ibb.co/Y7vbrKSg/280787613f2db03d.webp"
+      src="https://plus.unsplash.com/premium_photo-1664202526559-e21e9c0fb46a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D"
       alt="banner"
       className='w-full h-full object-cover'
     />
