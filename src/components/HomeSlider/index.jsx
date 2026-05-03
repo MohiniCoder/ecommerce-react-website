@@ -24,7 +24,7 @@ import { Autoplay, Navigation } from 'swiper/modules';
        <SwiperSlide>
   <div className='item rounded-[20px] overflow-hidden h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px]'>
     <img 
-      src="https://dokan.co/app/uploads/2024/12/Top-Fashion-eCommerce-Trends.jpg"
+      src="https://i.ibb.co/Y7vbrKSg/280787613f2db03d.webp"
       alt="banner"
       className='w-full h-full object-cover'
     />
