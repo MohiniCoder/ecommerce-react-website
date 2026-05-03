@@ -18,6 +18,7 @@ import DialogTitle from '@mui/material/DialogTitle';
 import { ProductZoom } from './components/ProductZoom';
 import { IoCloseSharp } from "react-icons/io5";
 import { ProductDetailsComponent } from './components/ProductDetails';
+import "./App.css";
 
 
 export const MyContext = createContext();

@@ -4,6 +4,10 @@ import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import Link from '@mui/material/Link';
 import ProductItem from "../../../components/ProductItem";
+import Button from '@mui/material/Button';
+import { IoGridSharp } from "react-icons/io5";
+import { LuMenu } from "react-icons/lu";
+
 function handleClick(event) {
   event.preventDefault();
   console.info('You clicked a breadcrumb.');
@@ -43,9 +47,26 @@ const ProductListing = () => {
 
 
 <div className="rightContent w-[80%]" >
+  <div className='bg-[#f1f1f1] p-2 w-full mb-3 rounded-md flex items-center justify-between' >
 
-  <div className="grid grid-cols-4 md:grid-cols-4">
+<div className='col1 flex items-center gap-3 '>
+  <Button className='!w-[40px] !h-[40px] !min-w-[40px] !rounded-full !text-[#000] '><IoGridSharp className='text-[rgba(0,0,0,0.7)]'/></Button>
+ <Button className='!w-[40px] !h-[40px] !min-w-[40px] !rounded-full !text-[#000] '><LuMenu  className='text-[rgba(0,0,0,0.7)]'/></Button>
 
+
+</div>
+
+  </div>
+
+  <div className="grid grid-cols-4 md:grid-cols-4 gap-3">
+
+         <ProductItem/>
+         <ProductItem/>
+         <ProductItem/>
+         <ProductItem/>
+         <ProductItem/>
+         <ProductItem/>
+         <ProductItem/>
          <ProductItem/>
 
 

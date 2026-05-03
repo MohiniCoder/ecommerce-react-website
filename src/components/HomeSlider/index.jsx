@@ -8,22 +8,58 @@ import { Autoplay, Navigation } from 'swiper/modules';
   return (
       <div className='homeSlider py-4'>
         <div className="container">
-          <Swiper  
-          loop={true}
-          spaceBetween={10} 
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        navigation={true} modules={[Autoplay,Navigation]} className="SliderHome">
-        <SwiperSlide>
-          <div className='item rounded-[20px] overflow-hidden'>
-          <img src="https://serviceapi.spicezgold.com/download/1759938751802_30744.jpg" alt="banner slide 1 " className='w-full'></img>
-          </div></SwiperSlide>
-        <SwiperSlide><div className='item rounded-[20px] overflow-hidden '><img src="https://serviceapi.spicezgold.com/download/1759938751802_30744.jpg" alt="banner slide 2" className='w-full'></img></div></SwiperSlide>
-        <SwiperSlide><div className='item rounded-[20px] overflow-hidden'><img src="https://serviceapi.spicezgold.com/download/1751685130717_NewProject(8).jpg" alt="banner slide 2"  className='w-full'></img></div></SwiperSlide>
-         <SwiperSlide><div className='item rounded-[20px] overflow-hidden'><img src="https://serviceapi.spicezgold.com/download/1748955932914_NewProject(1).jpg" alt="banner slide 2"  className='w-full'></img></div></SwiperSlide>
-          
+         <Swiper  
+  loop={true}
+  spaceBetween={20}
+  centeredSlides={true}
+  slidesPerView={1.2}
+  autoplay={{
+    delay: 2500,
+    disableOnInteraction: false,
+  }}
+  navigation={true}
+  modules={[Autoplay, Navigation]}
+  className="SliderHome"
+>
+       <SwiperSlide>
+  <div className='item rounded-[20px] overflow-hidden h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px]'>
+    <img 
+      src="https://dokan.co/app/uploads/2024/12/Top-Fashion-eCommerce-Trends.jpg"
+      alt="banner"
+      className='w-full h-full object-cover'
+    />
+  </div>
+</SwiperSlide>
+
+<SwiperSlide>
+  <div className='item rounded-[20px] overflow-hidden h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px]'>
+    <img 
+      src="https://rukminim2.flixcart.com/fk-p-flap/3200/1560/image/994c5fd6b0edcc1f.jpg?q=60"
+      alt="banner"
+      className='w-full h-full object-cover'
+    />
+  </div>
+</SwiperSlide>
+
+<SwiperSlide>
+  <div className='item rounded-[20px] overflow-hidden h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px]'>
+    <img 
+      src="https://rukminim2.flixcart.com/fk-p-flap/3200/1560/image/280787613f2db03d.png?q=60"
+      alt="banner"
+      className='w-full h-full object-cover'
+    />
+  </div>
+</SwiperSlide>
+
+<SwiperSlide>
+  <div className='item rounded-[20px] overflow-hidden h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px]'>
+    <img 
+      src="https://rukminim2.flixcart.com/fk-p-flap/3200/1560/image/717f83a237ac82f4.png?q=60"
+      alt="banner"
+      className='w-full h-full object-cover'
+    />
+  </div>
+</SwiperSlide>
       </Swiper>
         </div>
 

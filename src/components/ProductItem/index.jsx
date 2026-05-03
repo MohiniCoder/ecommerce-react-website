@@ -6,7 +6,8 @@ import Button from '@mui/material/Button';
 import { FaRegHeart } from "react-icons/fa";
 import { MdZoomOutMap } from "react-icons/md";
 import { MyContext } from '../../App';
-
+import InnerImageZoom from 'react-inner-image-zoom';
+import 'react-inner-image-zoom/lib/styles.min.css';
 import { IoGitCompareOutline } from "react-icons/io5";
 //in the gropup css is work when aplied to the parent
 const ProductItem = () => {
@@ -14,11 +15,11 @@ const ProductItem = () => {
   const context=useContext(MyContext);
 
   return (
-    
+
     <div className='ProductItem group shadow-lg rounded-md overflow-hidden border-1 border-[rgba(0,0,0,0.1)]'>
       <div className='imgwrapper w-full h-[250px] overflow-hidden rounded-md relative'>
-        <img
-          src="https://serviceapi.spicezgold.com/download/1742452096038_thth1.jpg"
+        <InnerImageZoom
+          src="https://www.jiomart.com/images/product/original/443099366_magntafusha/women-printed-straight-kurta-model-443099366_magntafusha-0-202511191939.jpg?im=Resize=(600,750)"
           className='w-full'
           alt="product"
         />
