@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import logo from "../../assets/1750047766437_logo.jpg";
+//import logo from "../../assets/1750047766437_logo.jpg";
 import Search from '../Search';
 import Badge from '@mui/material/Badge';
 import { styled } from '@mui/material/styles';
@@ -50,11 +50,11 @@ const Header = () => {
       </div>
       {/* //header part  */}
 
-      <div className='header py-4 border-b-[1px] border-gray-250'>
+      <div className='header py-1 border-b-[1px] border-gray-250'>
 
         <div className="container flex items-center justify-between">
           <div className="col1 w-[25%]">
-            <Link to={"/"}> <img src={logo} alt="Logo" /></Link>
+            <Link to={"/"}> <img src="https://i.ibb.co/n85ZNxXg/Chat-GPT-Image-May-3-2026-05-05-35-PM.png" alt="Logo" /></Link>
           </div>
           <div className="col2 w-[45%]">
             <Search />
