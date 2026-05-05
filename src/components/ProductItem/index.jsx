@@ -19,7 +19,7 @@ const ProductItem = () => {
     <div className='ProductItem group shadow-lg rounded-md overflow-hidden border-1 border-[rgba(0,0,0,0.1)]'>
       <div className='imgwrapper w-full h-[250px] overflow-hidden rounded-md relative'>
         <InnerImageZoom
-          src="https://cdn1.jiomartjcp.com/v2/catalog-cloud/jiomar/t.resize(w:300)/images/othe/1qvqee/.j/pg/140.jpg.2654b2863b.jpg"
+          src="https://i.ibb.co/tPwSHJHF/sarhcy3dupuzd4drjcs1-jpg-288b2b70f5.avif"
           className='w-full'
           alt="product"
         />
