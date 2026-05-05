@@ -18,12 +18,21 @@ import DialogTitle from '@mui/material/DialogTitle';
 import { ProductZoom } from './components/ProductZoom';
 import { IoCloseSharp } from "react-icons/io5";
 import { ProductDetailsComponent } from './components/ProductDetails';
-import "./App.css";
+
+import Drawer from '@mui/material/Drawer';
+
 
 
 export const MyContext = createContext();
-function App() {
 
+
+ 
+function App() {
+const [openCartPanel, setOpenCartPanel] =useState(false);
+ 
+  const toggleCartPanel = (newOpen) => () => {
+    setOpenCartPanel(newOpen);
+  };
   const [maxWidth, setMaxWidth] = React.useState('lg');
   const [fullWidth, setFullWidth] = React.useState(true);
  const [openProductDetailsModel, setOpenProductDetailsModel] = React.useState(false);
@@ -35,7 +44,8 @@ function App() {
   };
   const values={
 
-setOpenProductDetailsModel
+setOpenProductDetailsModel,
+setOpenCartPanel
 
 
 
@@ -89,6 +99,15 @@ setOpenProductDetailsModel
     </div>
   </DialogContent>
 </Dialog>
+ <Drawer open={openCartPanel} onClose={toggleCartPanel(false)} anchor={"right"}>
+<div className='flex items-center justify-between py-3 px-4 gap-3'>
+        
+     
+      <h4>Shopping Cart(1)</h4>
+      <IoCloseSharp className='text-[20px] cursor-pointer'onClick={toggleCartPanel(false)}/>
+ </div>
+      </Drawer>
+     
       </>
   );
 }

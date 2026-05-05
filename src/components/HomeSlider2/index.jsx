@@ -21,7 +21,7 @@ const HomeSlider2 = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://serviceapi.spicezgold.com/download/1742441193376_1737037654953_New_Project_45.jpg" />
+          <img src="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src="https://swiperjs.com/demos/images/nature-2.jpg" />

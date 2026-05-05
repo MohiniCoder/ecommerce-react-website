@@ -19,7 +19,7 @@ const ProductItem = () => {
     <div className='ProductItem group shadow-lg rounded-md overflow-hidden border-1 border-[rgba(0,0,0,0.1)]'>
       <div className='imgwrapper w-full h-[250px] overflow-hidden rounded-md relative'>
         <InnerImageZoom
-          src="https://www.jiomart.com/images/product/original/443099366_magntafusha/women-printed-straight-kurta-model-443099366_magntafusha-0-202511191939.jpg?im=Resize=(600,750)"
+          src="https://cdn1.jiomartjcp.com/v2/catalog-cloud/jiomar/t.resize(w:300)/images/othe/1qvqee/.j/pg/140.jpg.2654b2863b.jpg"
           className='w-full'
           alt="product"
         />
